@@ -3,16 +3,43 @@
 import { useState, useEffect } from "react";
 
 const slides = [
-  { id: 1, img: "ps1.png", text: "All Type Healthy Plants With Discount ",button:"Buy Now" },
-  { id: 2, img: "seed.png", text: "marry gold jesmein 50%  discount",button:"Buy Now" },
-  { id: 3, img: "\download.jfif", text: "Best Quality Nursery",button:"Buy Now" },
-  { id: 4, img: "\images.jfif", text: "Green Your Home",button:"Buy Now" },
+  {
+    id: 1,
+    img: "/ps1.png",
+    title: "Healthy Plants",
+    text: "All Type Healthy Plants With Discount",
+    button: "Buy Now",
+    link: "/plants",
+  },
+  {
+    id: 2,
+    img: "/seed.png",
+    title: "Flower Seeds",
+    text: "Marigold & Jasmine Seeds – 50% OFF",
+    button: "Buy Now",
+    link: "/seeds",
+  },
+  {
+    id: 3,
+    img: "/download.jfif",
+    title: "Best Nursery",
+    text: "Best Quality Nursery Plants",
+    button: "Explore",
+    link: "/nursery",
+  },
+  {
+    id: 4,
+    img: "/images.jfif",
+    title: "Green Home",
+    text: "Green Your Home With Nature",
+    button: "Shop Plants",
+    link: "/plants",
+  },
 ];
 
 export default function Carousel() {
   const [current, setCurrent] = useState(0);
 
-  // Auto Slide (optional)
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrent((prev) => (prev + 1) % slides.length);
@@ -21,57 +48,67 @@ export default function Carousel() {
   }, []);
 
   return (
-    <div className="relative w-screen overflow-hidden">
-
+    <div className="relative w-full overflow-hidden">
       {/* Slides */}
       <div
-        className="w-screen flex transition-transform duration-700 ease-in-out"
+        className="flex transition-transform duration-700 ease-in-out"
         style={{ transform: `translateX(-${current * 100}%)` }}
       >
         {slides.map((slide) => (
           <div key={slide.id} className="min-w-full relative">
-             <img
-    src={slide.img}
-    alt={slide.text}
-    className="w-screen h-[300px] md:h-[450px] object-cover"
-  />
-            <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-              <h2 className="text-white text-2xl md:text-4xl font-bold">
-                {slide.text}
-              </h2>
-  <button className="
-    px-8 py-3
-    text-white text-lg md:text-xl font-semibold
-    bg-gradient-to-r from-yellow-400 to-yellow-500
-    rounded-full
-    shadow-lg
-    hover:from-yellow-500 hover:to-yellow-600
-    hover:scale-105
-    transition-all duration-300
-    flex items-center gap-2
-  ">
-    {slide.button}
-    <span className="text-2xl">→</span>
-  </button>
+            <img
+              src={slide.img}
+              alt={slide.title}
+              className="w-full h-[260px] sm:h-[350px] md:h-[450px] object-cover"
+            />
+
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
+              <div className="text-center px-6 max-w-2xl">
+                <h2 className="text-white text-2xl sm:text-3xl md:text-5xl font-extrabold mb-4 drop-shadow">
+                  {slide.title}
+                </h2>
+
+                <p className="text-white/90 text-sm sm:text-base md:text-lg mb-6">
+                  {slide.text}
+                </p>
+
+                <a
+                  href={slide.link}
+                  className="
+                    inline-flex items-center gap-2
+                    px-7 md:px-9 py-3
+                    text-white text-sm md:text-lg font-semibold
+                    bg-gradient-to-r from-yellow-400 to-yellow-500
+                    rounded-full shadow-xl
+                    hover:from-yellow-500 hover:to-yellow-600
+                    hover:scale-110
+                    transition-all duration-300
+                  "
+                >
+                  {slide.button}
+                  <span className="text-xl">→</span>
+                </a>
+              </div>
             </div>
           </div>
         ))}
       </div>
 
-      {/* Prev Button */}
+      {/* Prev */}
       <button
         onClick={() =>
           setCurrent(current === 0 ? slides.length - 1 : current - 1)
         }
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 text-black px-3 py-2 rounded-full hover:bg-white"
+        className="absolute left-3 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow"
       >
         ❮
       </button>
 
-      {/* Next Button */}
+      {/* Next */}
       <button
         onClick={() => setCurrent((current + 1) % slides.length)}
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 text-black px-3 py-2 rounded-full hover:bg-white"
+        className="absolute right-3 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow"
       >
         ❯
       </button>
@@ -82,8 +119,8 @@ export default function Carousel() {
           <button
             key={index}
             onClick={() => setCurrent(index)}
-            className={`w-3 h-3 rounded-full ${
-              current === index ? "bg-white" : "bg-white/50"
+            className={`w-3 h-3 rounded-full transition ${
+              current === index ? "bg-white scale-125" : "bg-white/50"
             }`}
           />
         ))}

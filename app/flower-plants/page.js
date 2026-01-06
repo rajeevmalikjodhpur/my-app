@@ -3,29 +3,78 @@ import { useState } from "react";
 
 const flowerPlants = [
   {
-    name: "Rose Plant",
-    image: "/rose.jpg",
-    desc: "Popular flowering plant with beautiful fragrance",
+    name: "Areca Palm",
+    image: "/Areca Palm.jpg",
+    desc: "Low maintenance air purifying plant",
+    price: 699,
+    discount: 200,
+    info: "Height: 3–5 ft | Indoor light | Water twice a week | Air purifier",
+  },
+  {
+    name: "coleus",
+    image: "/coleus.jpg",
+    desc: "Easy to grow indoor plant for home and office",
     price: 299,
     discount: 100,
-    info: "Full sunlight | Regular watering | Best for garden & pots",
+    info: "Low light plant | Fast growing | Best for beginners",
   },
   {
-    name: "Jasmine (Mogra)",
-    image: "/jasmine.jpg",
-    desc: "Fragrant white flowering plant",
-    price: 249,
-    discount: 80,
-    info: "Medium sunlight | Moderate water | Highly fragrant flowers",
-  },
-  {
-    name: "Hibiscus",
-    image: "/hibiscus.jpg",
-    desc: "Large colorful flowering outdoor plant",
-    price: 349,
+    name: "Croton",
+    image: "/croton.jpg",
+    desc: "Easy to grow indoor plant for home and office",
+    price: 299,
     discount: 100,
-    info: "Daily sunlight | Regular watering | Large blooms",
+    info: "Low light plant | Fast growing | Best for beginners",
   },
+  {
+    name: "dieffenbachia",
+    image: "/dieffenbachia.jpg",
+    desc: "Easy to grow indoor plant for home and office",
+    price: 299,
+    discount: 100,
+    info: "Low light plant | Fast growing | Best for beginners",
+  },
+  {
+    name: "Ixora wast indian jasmine",
+    image: "/Ixora wast indian jasmine.jpg",
+    desc: "Easy to grow indoor plant for home and office",
+    price: 299,
+    discount: 100,
+    info: "Low light plant | Fast growing | Best for beginners",
+  },
+  {
+    name: "morraya dwarf madhu kami",
+    image: "/morraya dwarf madhu kaini folowring.jpg",
+    desc: "Easy to grow indoor plant for home and office",
+    price: 299,
+    discount: 100,
+    info: "Low light plant | Fast growing | Best for beginners",
+  },
+  {
+    name: "Red plumeria champa",
+    image: "/red plumeria champa flower plants.jpg",
+    desc: "Easy to grow indoor plant for home and office",
+    price: 299,
+    discount: 100,
+    info: "Low light plant | Fast growing | Best for beginners",
+  },
+  {
+    name: "Royal bottle palm",
+    image: "/Royal bottle palm.jpg",
+    desc: "Easy to grow indoor plant for home and office",
+    price: 299,
+    discount: 100,
+    info: "Low light plant | Fast growing | Best for beginners",
+  },
+  {
+    name: "Thuja morpankhi",
+    image: "/thuja morpankhi coniferous.jpg",
+    desc: "Easy to grow indoor plant for home and office",
+    price: 299,
+    discount: 100,
+    info: "Low light plant | Fast growing | Best for beginners",
+  },
+
 ];
 
 export default function FlowerPlantsPage() {
@@ -87,14 +136,14 @@ export default function FlowerPlantsPage() {
                 {/* Buttons */}
                 <div className="grid grid-cols-3 gap-2">
                   <a
-                    href="tel:+919411812745"
+                    href="tel:+919520712211"
                     className="text-center bg-green-700 text-white py-2 rounded-lg text-sm"
                   >
                     Call
                   </a>
 
                   <a
-                    href={`https://wa.me/919411812745?text=I%20want%20to%20buy%20${plant.name}`}
+                    href={`https://wa.me/919520712211?text=I%20want%20to%20buy%20${plant.name}`}
                     className="text-center bg-green-500 text-white py-2 rounded-lg text-sm"
                   >
                     WhatsApp

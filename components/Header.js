@@ -33,7 +33,7 @@ export default function Navbar() {
             {openMenu === "plants" && (
               <div className="absolute mt-2 w-60 bg-white text-black rounded-xl shadow-xl z-[9999]">
                 <a href="indoor-plants" className="block px-4 py-2 hover:bg-green-100">Indoor Plants</a>
-                <a href="outdoor-pants" className="block px-4 py-2 hover:bg-green-100">Outdoor Plants</a>
+                <a href="outdoor-plants" className="block px-4 py-2 hover:bg-green-100">Outdoor Plants</a>
                 <a href="flower-plants" className="block px-4 py-2 hover:bg-green-100">Flowering Plants</a>
                 <a href="fruit-plants" className="block px-4 py-2 hover:bg-green-100">Fruit Plants</a>
               </div>
@@ -45,7 +45,7 @@ export default function Navbar() {
             <button onClick={() => toggleMenu("seeds")}>Seeds ▾</button>
             {openMenu === "seeds" && (
               <div className="absolute mt-2 w-60 bg-white text-black rounded-xl shadow-xl z-[9999]">
-                <Link href="Flower-Seeds" className="block px-4 py-2 hover:bg-green-100">Flower Seeds</Link>
+                <Link href="flower-seeds" className="block px-4 py-2 hover:bg-green-100">Flower Seeds</Link>
               </div>
             )}
           </div>
@@ -60,7 +60,7 @@ export default function Navbar() {
             )}
           </div>
 
-          <Link href="/contact">Contact</Link>
+          <Link href="contact-us">Contact</Link>
         </div>
 
         {/* MOBILE HAMBURGER */}
@@ -77,7 +77,7 @@ export default function Navbar() {
         <div className="md:hidden bg-green-800 text-white px-6 py-4 space-y-2">
 
           <Link href="/" className="block py-2">Home</Link>
-          <Link href="/about" className="block py-2">About</Link>
+          <Link href="aboutus" className="block py-2">About</Link>
 
           {/* Mobile Plants */}
           <button onClick={() => toggleMenu("m-plants")} className="w-full text-left py-2">
@@ -85,11 +85,10 @@ export default function Navbar() {
           </button>
           {openMenu === "m-plants" && (
             <div className="pl-4 space-y-1">
-              <Link href="/plants/indoor" className="block py-1">Indoor Plants</Link>
-              <Link href="/plants/outdoor" className="block py-1">Outdoor Plants</Link>
-              <Link href="/plants/flowering" className="block py-1">Flowering Plants</Link>
-              <Link href="/plants/fruit" className="block py-1">Fruit Plants</Link>
-              <Link href="/plants/medicinal" className="block py-1">Medicinal Plants</Link>
+              <Link href="indoor-plants" className="block py-1">Indoor Plants</Link>
+              <Link href="outdoor-plants" className="block py-1">Outdoor Plants</Link>
+              <Link href="flower-plants" className="block py-1">Flowering Plants</Link>
+              <Link href="fruit-plants" className="block py-1">Fruit Plants</Link>
             </div>
           )}
 
@@ -99,7 +98,7 @@ export default function Navbar() {
           </button>
           {openMenu === "m-seeds" && (
             <div className="pl-4 space-y-1">
-              <Link href="/seeds/flower" className="block py-1">Flower Seeds</Link>
+              <Link href="flower-seeds" className="block py-1">Flower Seeds</Link>
            
             </div>
           )}
@@ -114,7 +113,7 @@ export default function Navbar() {
             </div>
           )}
 
-          <Link href="/contact" className="block py-2">Contact</Link>
+          <Link href="contact-us" className="block py-2">Contact</Link>
         </div>
       )}
     </header>

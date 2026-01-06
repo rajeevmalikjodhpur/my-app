@@ -5,30 +5,12 @@ import { useState } from "react";
 const fruitPlants = [
   {
     name: "Mango Plant",
-    image: "/mango.jpg",
+    image: "/h.jpg",
     desc: "Best fruit plant for home garden and farming",
-    price: 899,
-    discount: 250,
+    price: 300,
+    discount: 100,
     info:
       "Mango plant needs full sunlight and well-drained soil. Fruiting starts in 3–4 years.",
-  },
-  {
-    name: "Lemon Plant",
-    image: "/lemon.jpg",
-    desc: "All season fruiting lemon plant",
-    price: 499,
-    discount: 150,
-    info:
-      "Lemon plant can be grown in pots and gives fruit throughout the year.",
-  },
-  {
-    name: "Guava Plant",
-    image: "/guava.jpg",
-    desc: "Fast growing fruit plant",
-    price: 699,
-    discount: 200,
-    info:
-      "Guava plant grows fast and produces fruits within 2–3 years.",
   },
 ];
 

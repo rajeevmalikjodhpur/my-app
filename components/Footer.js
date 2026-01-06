@@ -20,10 +20,10 @@ At Groway Horticulture, you get very high-quality plants, seeds, and pots. The p
           <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
           <ul>
             <li><a href="/" className="hover:text-yellow-400">Home</a></li>
-            <li><a href="/plants" className="hover:text-yellow-400">Plants</a></li>
-            <li><a href="/seeds" className="hover:text-yellow-400">Seeds</a></li>
+            <li><a href="plants" className="hover:text-yellow-400">Plants</a></li>
+            <li><a href="seeds" className="hover:text-yellow-400">Seeds</a></li>
             <li><a href="#" className="hover:text-yellow-400">Blog</a></li>
-            <li><a href="/contact" className="hover:text-yellow-400">Contact</a></li>
+            <li><a href="contact-us" className="hover:text-yellow-400">Contact</a></li>
           </ul>
         </div>
 
@@ -31,32 +31,32 @@ At Groway Horticulture, you get very high-quality plants, seeds, and pots. The p
         <div>
           <h3 className="text-xl font-semibold mb-4">Company</h3>
           <ul>
-            <li><a href="/about-us" className="hover:text-yellow-400">About Us</a></li>
-            <li><a href="/privacy-policy" className="hover:text-yellow-400">Privacy Policy</a></li>
+            <li><a href="aboutus" className="hover:text-yellow-400">About Us</a></li>
+            <li><a href="privacy-policy" className="hover:text-yellow-400">Privacy Policy</a></li>
             <li><a href="/disclaimer" className="hover:text-yellow-400">Disclaimer</a></li>
-            <li><a href="/terms-conditions" className="hover:text-yellow-400">Terms & Conditions</a></li>
+            <li><a href="terms-and-conditions" className="hover:text-yellow-400">Terms & Conditions</a></li>
           </ul>
         </div>
 
         {/* Contact */}
         <div>
           <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-          <p>📞 +91 12345 67890</p>
+          <p>📞 +91 9520712211</p>
           <p>✉️ info@growayhorticulture.com</p>
           <div className="flex gap-4 mt-4 text-xl">
-  <a href="https://facebook.com" target="_blank" className="hover:text-yellow-400">
+  <a href="facebook.com/profile.php?id=61565657243204" target="_blank" className="hover:text-yellow-400">
     <FaFacebookF />
   </a>
 
-  <a href="https://instagram.com" target="_blank" className="hover:text-yellow-400">
+  <a href="instagram.com/growayhorticulture" target="_blank" className="hover:text-yellow-400">
     <FaInstagram />
   </a>
 
-  <a href="https://wa.me/911234567890" target="_blank" className="hover:text-yellow-400">
+  <a href="https://wa.me/919520712211" target="_blank" className="hover:text-yellow-400">
     <FaWhatsapp />
   </a>
 
-  <a href="https://youtube.com/@yourchannel" target="_blank" className="hover:text-yellow-400">
+  <a href="www.youtube.com/@Growayhorticultures" target="_blank" className="hover:text-yellow-400">
     <FaYoutube />
   </a>
 </div>
