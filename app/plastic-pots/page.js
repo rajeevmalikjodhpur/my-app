@@ -4,8 +4,8 @@ import { useState } from "react";
 
 const plasticPots = [
   {
-    name: "8 Inch Plastic Pot",
-    image: "/pots/8inch.jpg",
+    name: "6 inch white pot",
+    image: "6 inch white pots.jpg",
     desc: "Best plastic pot for small indoor plants",
     price: 199,
     discount: 50,
@@ -13,8 +13,8 @@ const plasticPots = [
       "Suitable for money plant, snake plant and small flowering plants. Durable and lightweight.",
   },
   {
-    name: "10 Inch Plastic Pot",
-    image: "/pots/10inch.jpg",
+    name: "8 inch h hexa",
+    image: "8 inch h hexa.jpg",
     desc: "Medium size plastic pot for home garden",
     price: 299,
     discount: 80,
@@ -22,8 +22,8 @@ const plasticPots = [
       "Ideal for flowering plants and herbs. UV resistant plastic material.",
   },
   {
-    name: "12 Inch Plastic Pot",
-    image: "/pots/12inch.jpg",
+    name: "8 inch virat red pot",
+    image: "8 inch virat red pot.jpg",
     desc: "Heavy duty plastic pot for outdoor plants",
     price: 449,
     discount: 120,
@@ -31,8 +31,8 @@ const plasticPots = [
       "Perfect for rose plants, hibiscus and medium fruit plants.",
   },
   {
-    name: "Hanging Plastic Pot",
-    image: "/pots/hanging.jpg",
+    name: "10 inch black pot",
+    image: "/10 inch black pot.jpg",
     desc: "Decorative hanging plastic pot",
     price: 249,
     discount: 70,
@@ -40,14 +40,187 @@ const plasticPots = [
       "Used for money plant, petunia and trailing plants. Comes with hook.",
   },
   {
-    name: "Large Plastic Pot",
-    image: "/pots/large.jpg",
+    name: "10 inch h poneix orange",
+    image: "/10 inch h poneix orange.jpg",
     desc: "Large pot for trees and fruit plants",
     price: 699,
     discount: 200,
     info:
       "Strong plastic pot suitable for guava, lemon and ornamental trees.",
   },
+  {
+    name: "10 inch red pot",
+    image: "/10 inch red pot.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  {
+    name: "12 inch nursery white pot",
+    image: "/12 inch nursery white pot.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  {
+    name: "12 inch red pot",
+    image: "/12 inch red pot.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  {
+    name: "14 inch nurser white pot",
+    image: "/14 inch nurser white pot.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  {
+    name: "18 inch red pot",
+    image: "/18 inch red pot.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  {
+    name: "19 inch nursery white pot",
+    image: "/19 inch nursery white pot.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  {
+    name: "24 inch window planter red",
+    image: "/24 inch window planter red.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  {
+    name: "blassom hanging",
+    image: "/blassom hanging.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  {
+    name: "budha 7 inch pot",
+    image: "/budha 7 inch pot.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  {
+    name: "budha 10 inch pot",
+    image: "/budha 10 inch pot.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  {
+    name: "diamante self watering pot ",
+    image: "/diamante self watering.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  {
+    name: "hector hook pot",
+    image: "/hector hook pot.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  {
+    name: "Heera flower pot 6 inch",
+    image: "/Heera flower pot 6 inch.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  {
+    name: "Kristal self watering",
+    image: "/kristal self watering.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  {
+    name: "Lov self watering pot",
+    image: "/lov self watering pot.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  {
+    name: "pearl 3.5 inch",
+    image: "/pearl 3.5 inch.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+
+  {
+    name: "rattan pot 7 inch",
+    image: "/rattan pot 7 inch.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  {
+    name: "Self watering pot 4 inch",
+    image: "/self watering pot 4 inch.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  {
+    name: "square self watring pot 5 inch",
+    image: "/square self watring pot 5 inch.jpg",
+    desc: "Large pot for trees and fruit plants",
+    price: 699,
+    discount: 200,
+    info:
+      "Strong plastic pot suitable for guava, lemon and ornamental trees.",
+  },
+  
 ];
 
 export default function PlasticPotsPage() {
@@ -79,7 +252,7 @@ export default function PlasticPotsPage() {
               <img
                 src={pot.image}
                 alt={pot.name}
-                className="w-full h-56 object-cover rounded-t-xl"
+                className="w-full object-cover rounded-t-xl"
               />
 
               <div className="p-4">
@@ -123,14 +296,14 @@ export default function PlasticPotsPage() {
                 {/* Buttons */}
                 <div className="flex gap-2 mt-4">
                   <a
-                    href="tel:+919411812745"
+                    href="tel:+919520712211"
                     className="w-1/2 text-center bg-green-700 text-white py-2 rounded-lg text-sm"
                   >
                     Call Now
                   </a>
 
                   <a
-                    href="https://wa.me/919411812745?text=Hello%20I%20want%20plastic%20pots"
+                    href="https://wa.me/919520712211?text=Hello%20I%20want%20plastic%20pots"
                     target="_blank"
                     className="w-1/2 text-center bg-green-500 text-white py-2 rounded-lg text-sm"
                   >
