@@ -78,7 +78,7 @@ const indoorPlants = [
   
   {
     name: "Golden cyress",
-    image: "/golden cyress.jpg",
+    image: "/golden cypress.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 299,
     discount: 100,
@@ -86,7 +86,7 @@ const indoorPlants = [
   },
   {
     name: "colus plant",
-    image: "/colus plant.jpg",
+    image: "/coleus.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 299,
     discount: 100,
