@@ -209,7 +209,7 @@ export default function IndoorPlantsPage() {
               <img
                 src={plant.image}
                 alt={plant.name}
-                className="w-full h-56 object-cover rounded-t-xl"
+                className="w-full object-cover rounded-t-xl"
               />
 
               <div className="p-4">
