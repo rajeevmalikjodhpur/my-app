@@ -16,7 +16,7 @@ const indoorPlants = [
     image: "/coleus.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 50,
-    discount: 40,
+    discount: 5,
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
@@ -32,7 +32,7 @@ const indoorPlants = [
     image: "/dieffenbachia.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 50,
-    discount: 50,
+    discount:10,
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
@@ -40,7 +40,7 @@ const indoorPlants = [
     image: "/Ixora wast indian jasmine.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 55,
-    discount: 50,
+    discount: 5,
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
@@ -48,7 +48,7 @@ const indoorPlants = [
     image: "/morraya dwarf madhu kaini folowring.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 60,
-    discount: 40,
+    discount: 10,
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
@@ -56,7 +56,7 @@ const indoorPlants = [
     image: "/red plumeria champa flower plants.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 99,
-    discount: 100,
+    discount: 10,
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
@@ -72,7 +72,7 @@ const indoorPlants = [
     image: "/thuja morpankhi coniferous.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 60,
-    discount: 40,
+    discount: 10,
     info: "Low light plant | Fast growing | Best for beginners",
   },
   
@@ -81,7 +81,7 @@ const indoorPlants = [
     image: "/golden cypress.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 70,
-    discount: 30,
+    discount: 10,
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
@@ -89,7 +89,7 @@ const indoorPlants = [
     image: "/coleus.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 54,
-    discount: 95,
+    discount: 10,
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
@@ -105,7 +105,7 @@ const indoorPlants = [
     image: "/dracaena kolkata.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 80,
-    discount: 55,
+    discount: 15,
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
@@ -121,7 +121,7 @@ const indoorPlants = [
     image: "/coper plant.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 99,
-    discount: 50,
+    discount: 10,
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
@@ -129,7 +129,7 @@ const indoorPlants = [
     image: "/dracaena mahatma.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 50,
-    discount: 40,
+    discount: 10,
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
@@ -137,7 +137,7 @@ const indoorPlants = [
     image: "/dracaena.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 99,
-    discount: 60,
+    discount: 20,
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
@@ -145,7 +145,7 @@ const indoorPlants = [
     image: "/laila majnu exoecria.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 70,
-    discount: 30,
+    discount: 20,
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
@@ -153,7 +153,7 @@ const indoorPlants = [
     image: "/china palm.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 150,
-    discount: 60,
+    discount: 20,
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
@@ -161,7 +161,7 @@ const indoorPlants = [
     image: "/phoenix palm.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 99,
-    discount: 50,
+    discount: 20,
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
@@ -169,7 +169,7 @@ const indoorPlants = [
     image: "/saplera.jpg",
     desc: "Easy to grow indoor plant for home and office",
     price: 89,
-    discount: 49,
+    discount: 20,
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
