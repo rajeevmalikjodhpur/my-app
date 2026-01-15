@@ -1,4 +1,7 @@
-import { useState } from "react";
+export const metadata = {
+  title: "buy indore plants online and offline | Groway Horticulture",
+  description: "Buy flower seeds in Indore like Rose, Marigold, Petunia. Call or WhatsApp to order."
+};
 const indoorPlants = [
   {
     name: "Areca Palm",
