@@ -32,8 +32,8 @@ export const metadata = {
                 <li>
                   📍 <strong>Address:</strong><br />
                   Groway Horticulture Pvt. Ltd.<br />
-                  Jodhpur, Rajasthan, India
-                </li>
+                  Jhall to Salfa Road,Jahll, Shamli,Uttar Pradesh, 247776
+                  </li>
   
                 <li>
                   📞 <strong>Phone:</strong><br />

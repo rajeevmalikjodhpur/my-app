@@ -2,28 +2,28 @@ import Image from "next/image";
 
 const products = [
   {
-    name: "Aloe Vera Plant",
-    image: "/products/aloe-vera.jpg",
-    price: "₹250",
-    link: "/contact", // Contact page
-  },
-  {
-    name: "Rose Plant",
-    image: "/products/rose.jpg",
-    price: "₹150",
-    link: "/contact",
-  },
-  {
-    name: "Tomato Seeds Pack",
-    image: "/products/tomato-seeds.jpg",
-    price: "₹50",
-    link: "/contact",
-  },
-  {
-    name: "Basil Seeds Pack",
-    image: "/products/basil-seeds.jpg",
+    name: "dieffenbachia",
+    image: "/dieffenbachia.jpg",
     price: "₹60",
-    link: "/contact",
+    link: "tel:911234567890", // Contact page
+  },
+  {
+    name: "Ixora wast indian jasmine",
+    image: "/Ixora wast indian jasmine.jpg",
+    price: "₹50",
+    link: "tel:911234567890",
+  },
+  {
+    name: "Thuja morpankhi",
+    image: "/thuja morpankhi coniferous.jpg",
+    price: "₹50",
+    link: "tel:911234567890",
+  },
+  {
+    name: "china palm",
+    image: "/china palm.jpg",
+    price: "₹130",
+    link: "/tel:911234567890",
   },
 ];
 

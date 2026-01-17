@@ -1,11 +1,10 @@
-import OutdoorPlant from "../../components/Outdoorplant";
+import IndoorPlantCard from "../../components/IndoorPlantCard";
 export const metadata = {
-  title: "Buy outdoor plants | Groway Horticulture",
+  title: "Buy Indoor  plants | Groway Horticulture",
   description: "Buy flower seeds in Indore like Rose, Marigold, Petunia. Call or WhatsApp to order."
 };
 
-
-export default function OutdoorPlantsPage() {
+export default function IndoorPlantPage() {
 
   return (
     <main className="max-w-7xl mx-auto px-4 py-10">
@@ -13,7 +12,7 @@ export default function OutdoorPlantsPage() {
       {/* SEO Text */}
       <section className="mt-14 text-sm text-gray-700 leading-6">
         <h2 className="text-xl font-semibold mb-2">
-          Buy Outdoor Plants from Groway Horticulture
+          Buy Indoor Plants from Groway Horticulture
         </h2>
         <p>
           Groway Horticulture supplies outdoor plants for gardens, parks,
@@ -22,7 +21,9 @@ export default function OutdoorPlantsPage() {
           Contact us for retail and bulk orders.
         </p>
       </section>
-      <OutdoorPlant/>
+      <section className="mt-14 text-sm text-gray-700 leading-6">
+      <IndoorPlantCard/>
+      </section>
     </main>
   );
 }

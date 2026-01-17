@@ -3,7 +3,7 @@ import Link from "next/link";
 const plantCategories = [
   {
     name: "Indoor Plants",
-    slug: "indoor-plants",
+    slug: "buy-indoor-plants",
     image: "/q.jpg",
     desc: "You can keep indoor plants in your home to enjoy fresh air and a pleasant fragrance.",
   },

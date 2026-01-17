@@ -32,7 +32,7 @@ export default function Navbar() {
             <button onClick={() => toggleMenu("plants")}>Plants ▾</button>
             {openMenu === "plants" && (
               <div className="absolute mt-2 w-60 bg-white text-black rounded-xl shadow-xl z-[9999]">
-                <a href="indoor-plants" className="block px-4 py-2 hover:bg-green-100">Indoor Plants</a>
+                <a href="buy-indoor-plants" className="block px-4 py-2 hover:bg-green-100">Indoor Plants</a>
                 <a href="outdoor-plants" className="block px-4 py-2 hover:bg-green-100">Outdoor Plants</a>
                 <a href="flower-plants" className="block px-4 py-2 hover:bg-green-100">Flowering Plants</a>
                 <a href="fruit-plants" className="block px-4 py-2 hover:bg-green-100">Fruit Plants</a>
@@ -85,7 +85,7 @@ export default function Navbar() {
           </button>
           {openMenu === "m-plants" && (
             <div className="pl-4 space-y-1">
-              <Link href="indoor-plants" className="block py-1">Indoor Plants</Link>
+              <Link href="buy-indoor-plants" className="block py-1">Indoor Plants</Link>
               <Link href="outdoor-plants" className="block py-1">Outdoor Plants</Link>
               <Link href="flower-plants" className="block py-1">Flowering Plants</Link>
               <Link href="fruit-plants" className="block py-1">Fruit Plants</Link>
