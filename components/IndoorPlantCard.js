@@ -184,8 +184,6 @@ const plants = [
     desc: "Easy to grow indoor plant for home and office",
     info: "Low light plant | Fast growing | Best for beginners",
   }
-  
-  
 ];
 
 export default function IndoorPlantCard() {
