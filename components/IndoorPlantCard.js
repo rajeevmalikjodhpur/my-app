@@ -20,17 +20,9 @@ const plants = [
       desc: "Easy to grow indoor plant for home and office",
       info: "Low light plant | Fast growing | Best for beginners",
     },
+    
     {
       id: 3,
-      name: "Croton",
-      image: "/croton.jpg",
-      oldPrice: 75,
-      price: 50,
-      desc: "Easy to grow indoor plant for home and office",
-      info: "Low light plant | Fast growing | Best for beginners",
-    },
-    {
-      id: 4,
       name: "Dieffenbachia",
       image: "/dieffenbachia.jpg",
       oldPrice: 150,
@@ -38,17 +30,9 @@ const plants = [
       desc: "Easy to grow indoor plant for home and office",
       info: "Low light plant | Fast growing | Best for beginners",
     },
+    
     {
-      id: 5,
-      name: "Ixora West Indian Jasmine",
-      image: "/Ixora wast indian jasmine.jpg",
-      oldPrice: 155,
-      price: 100,
-      desc: "Easy to grow indoor plant for home and office",
-      info: "Low light plant | Fast growing | Best for beginners",
-    },
-    {
-      id: 6,
+      id: 4,
       name: "Murraya Dwarf Madhu Kamini",
       image: "/morraya dwarf madhu kaini folowring.jpg",
       oldPrice: 60,
@@ -56,17 +40,9 @@ const plants = [
       desc: "Easy to grow indoor plant for home and office",
       info: "Low light plant | Fast growing | Best for beginners",
     },
+    
     {
-      id: 7,
-      name: "Red Plumeria Champa",
-      image: "/red plumeria champa flower plants.jpg",
-      oldPrice: 199,
-      price: 150,
-      desc: "Easy to grow indoor plant for home and office",
-      info: "Low light plant | Fast growing | Best for beginners",
-    },
-    {
-      id: 8,
+      id: 5,
       name: "Royal Bottle Palm",
       image: "/Royal bottle palm.jpg",
       oldPrice: 250,
@@ -74,27 +50,10 @@ const plants = [
       desc: "Easy to grow indoor plant for home and office",
       info: "Low light plant | Fast growing | Best for beginners",
     },
-    {
-      id: 9,
-      name: "Thuja Morpankhi",
-      image: "/thuja morpankhi coniferous.jpg",
-      oldPrice: 60,
-      price: 50,
-      desc: "Easy to grow indoor plant for home and office",
-      info: "Low light plant | Fast growing | Best for beginners",
-    },
-     {
-    id: 10,
-    name: "Golden Cypress",
-    image: "/golden cypress.jpg",
-    oldPrice: 770,
-    price: 400,
-    desc: "Easy to grow indoor plant for home and office",
-    info: "Low light plant | Fast growing | Best for beginners",
-  },
+    
   
   {
-    id: 11,
+    id: 6,
     name: "Red Macheera China Doll",
     image: "/red machera china doll.jpg",
     oldPrice: 99,
@@ -103,7 +62,7 @@ const plants = [
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
-    id: 12,
+    id: 7,
     name: "Dracaena Kolkata",
     image: "/dracaens kolkata.jpg",
     oldPrice: 80,
@@ -111,17 +70,9 @@ const plants = [
     desc: "Easy to grow indoor plant for home and office",
     info: "Low light plant | Fast growing | Best for beginners",
   },
+  
   {
-    id: 13,
-    name: "Conocarpus Tree",
-    image: "/conocarpus tree.jpg",
-    oldPrice: 150,
-    price: 50,
-    desc: "Easy to grow indoor plant for home and office",
-    info: "Low light plant | Fast growing | Best for beginners",
-  },
-  {
-    id: 14,
+    id: 8,
     name: "Copper Plant",
     image: "/coper plant.jpg",
     oldPrice: 99,
@@ -130,7 +81,7 @@ const plants = [
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
-    id: 15,
+    id: 9,
     name: "Dracaena Mahatma",
     image: "/dracaena mahatma.jpg",
     oldPrice: 50,
@@ -139,35 +90,9 @@ const plants = [
     info: "Low light plant | Fast growing | Best for beginners",
   },
 
+  
   {
-    id: 16,
-    name: "Laila Majnu",
-    image: "/laila majnu exoecria.jpg",
-    oldPrice: 70,
-    price: 40,
-    desc: "Easy to grow indoor plant for home and office",
-    info: "Low light plant | Fast growing | Best for beginners",
-  },
-  {
-    id: 17,
-    name: "China Palm",
-    image: "/china palm.jpg",
-    oldPrice: 150,
-    price: 80,
-    desc: "Easy to grow indoor plant for home and office",
-    info: "Low light plant | Fast growing | Best for beginners",
-  },
-  {
-    id: 18,
-    name: "Phoenix Palm",
-    image: "/phoenix palm.jpg",
-    oldPrice: 99,
-    price: 80,
-    desc: "Easy to grow indoor plant for home and office",
-    info: "Low light plant | Fast growing | Best for beginners",
-  },
-  {
-    id: 19,
+    id: 10,
     name: "Schefflera (Saplera)",
     image: "/saplera.jpg",
     oldPrice: 99,
@@ -176,7 +101,7 @@ const plants = [
     info: "Low light plant | Fast growing | Best for beginners",
   },
   {
-    id: 20,
+    id: 11,
     name: "Syngonium",
     image: "/syngonium.jpg",
     oldPrice: 99,

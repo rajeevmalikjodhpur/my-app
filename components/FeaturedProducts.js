@@ -4,26 +4,26 @@ const products = [
   {
     name: "dieffenbachia",
     image: "/dieffenbachia.jpg",
-    price: "₹60",
-    link: "tel:911234567890", // Contact page
+    price: "₹100",
+    link: "tel:919520712211", // Contact page
   },
   {
     name: "Ixora wast indian jasmine",
     image: "/Ixora wast indian jasmine.jpg",
-    price: "₹50",
-    link: "tel:911234567890",
+    price: "₹100",
+    link: "tel:919520712211",
   },
   {
     name: "Thuja morpankhi",
     image: "/thuja morpankhi coniferous.jpg",
-    price: "₹50",
-    link: "tel:911234567890",
+    price: "₹400",
+    link: "tel:919520712211",
   },
   {
     name: "china palm",
     image: "/china palm.jpg",
-    price: "₹130",
-    link: "/tel:911234567890",
+    price: "₹80",
+    link: "/tel:919520712211",
   },
 ];
 
