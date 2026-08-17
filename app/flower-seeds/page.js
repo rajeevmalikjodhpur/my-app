@@ -27,7 +27,7 @@ export const metadata = {
               <p className="text-sm text-gray-600 mt-1">High-quality flower seeds for your garden.</p>
   
               <div className="grid grid-cols-3 gap-2 mt-4 text-sm">
-                <a href={`/seeds/${s.slug}`} className="border border-green-600 text-green-600 py-2 rounded text-center">Info</a>
+                <a href={`${s.slug}`} className="border border-green-600 text-green-600 py-2 rounded text-center">Info</a>
                 <a href="tel:911234567890" className="bg-green-600 text-white py-2 rounded text-center">Call</a>
                 <a href={`https://wa.me/911234567890?text=I want to buy ${s.name}`} target="_blank" className="bg-green-500 text-white py-2 rounded text-center">WhatsApp</a>
               </div>
