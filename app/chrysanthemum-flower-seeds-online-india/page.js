@@ -14,11 +14,7 @@ export const metadata = {
 
   {/* Product Image */}
   <div className="bg-white rounded-xl shadow-md p-4">
-  <img
-  src="/chrysanthemum flower seeds.jpg"
-  alt="/chrysanthemum flower seeds"
-  className="w-full object-contain rounded-lg"
-/>
+
   </div>
 
   {/* Product Details */}
