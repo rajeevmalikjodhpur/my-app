@@ -14,14 +14,18 @@ export const metadata = {
 
   {/* Product Image */}
   <div className="bg-white rounded-xl shadow-md p-4">
-
+  <img
+  src="/chrysanthemum flower seeds.jpg"
+  alt="chrysanthemum flower seeds"
+  className="w-full object-contain rounded-lg"
+/>
   </div>
 
   {/* Product Details */}
   <div className="bg-white rounded-xl shadow-md p-6">
 
     <h2 className="text-2xl font-bold text-gray-800 mb-3">
-      {s.name}
+    Buy chrysanthemum flower seeds online
     </h2>
 
     <div className="text-sm text-green-600 font-semibold mb-4">
@@ -36,7 +40,7 @@ export const metadata = {
     {/* Price */}
     <div className="mb-5">
       <span className="text-3xl font-bold text-green-600">
-        ₹99
+        ₹50
       </span>
       <span className="text-gray-500 ml-2">
         / Pack
@@ -48,13 +52,6 @@ export const metadata = {
       <label className="block font-semibold mb-2">
         Quantity
       </label>
-
-      <select className="border rounded-lg px-4 py-2 w-full">
-        <option>1 Pack</option>
-        <option>2 Packs</option>
-        <option>5 Packs</option>
-        <option>10 Packs</option>
-      </select>
     </div>
 
     {/* Order Buttons */}
