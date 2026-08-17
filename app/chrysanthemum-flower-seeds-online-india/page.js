@@ -17,7 +17,7 @@ export const metadata = {
   <img
   src="/chrysanthemum flower seeds.jpg"
   alt="/chrysanthemum flower seeds"
-  className="w-full h-[400px] object-contain rounded-lg"
+  className="w-full object-contain rounded-lg"
 />
   </div>
 
