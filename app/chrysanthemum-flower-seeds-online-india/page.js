@@ -64,8 +64,7 @@ export const metadata = {
       <p><strong>Growth:</strong> White</p>
       <p><strong>Suitable for:</strong> Home Gardening & Farming</p>
     </div>
-  </div>
-{/* Key Features */}
+    {/* Key Features */}
 <section className="mt-8">
   <h2 className="text-2xl font-bold text-gray-800 mb-4">
     Key Features
@@ -129,6 +128,18 @@ export const metadata = {
 
   </div>
 </section>
+  </div>
+
+<div className="mt-6">
+  <h2 className="text-2xl font-bold text-gray-800 mb-2">
+    Key Features
+  </h2>
+
+  <p className="text-gray-600 leading-7">
+    Beautiful Chrysanthemum flower seeds suitable for growing in pots,
+    gardens, balconies, and home gardens.
+  </p>
+</div>
 </div>
       </main>
     );
