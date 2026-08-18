@@ -61,8 +61,8 @@ export const metadata = {
       <p><strong>Product:</strong>Chrysanthemum Flower Seeds</p>
       <p><strong>Germination:</strong> 99.9%</p>
       <p><strong>Growth:</strong> Fast Growing</p>
-      <p><strong>Growth:</strong> White</p>
-      <p><strong>Suitable for:</strong> Home Gardening & Farming</p>
+      <p><strong>Color:</strong> White</p>
+      <p><strong>Suitable for:</strong> Home Gardening & Farming Etc</p>
     </div>
     {/* Key Features */}
 <section className="mt-8">
@@ -121,7 +121,7 @@ export const metadata = {
       <div>
         <p className="text-sm text-gray-500">Seed Quantity</p>
         <p className="font-semibold text-gray-800">
-          100 Seeds
+          300-500 Seeds
         </p>
       </div>
     </div>
@@ -131,14 +131,24 @@ export const metadata = {
   </div>
 
 <div className="mt-6">
-  <h2 className="text-2xl font-bold text-gray-800 mb-2">
-    Key Features
-  </h2>
+<p className="text-gray-600 leading-7">
+Whenever you order Chrysanthemum flower seeds online, they are packed in polythene, and the packaging is done very carefully so that the seeds do not get damaged.</p>
 
   <p className="text-gray-600 leading-7">
-    Beautiful Chrysanthemum flower seeds suitable for growing in pots,
-    gardens, balconies, and home gardens.
-  </p>
+  Groway Horticulture provides you with quality seeds that germinate very quickly and help the plant grow rapidly. These plants produce flowers for you in a very short time. </p>
+
+    <p className="text-gray-600 leading-7">
+    The plant grown from these seeds can be planted anywhere, such as on your home terrace, balcony, garden, etc. </p>
+
+    <p className="text-gray-600 leading-7">
+    Farmers can also grow this plant commercially using these seeds. Groway Horticulture seeds produce more flowers than normal plants and start flowering much earlier.</p>
+    <p className="text-gray-600 leading-7">
+    When the plant grows quickly and produces more flowers, farmers can earn higher profits.</p>
+
+    <p className="text-gray-600 leading-7">
+    If anyone wants to buy Chrysanthemum flower seeds in grams or kilograms, they can also purchase them.</p>
+
+
 </div>
 </div>
       </main>
