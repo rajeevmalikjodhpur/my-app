@@ -129,7 +129,7 @@ export const metadata = {
   </div>
 </section>
   </div>
-
+</div>
 <div className="mt-6">
 <p className="text-gray-600 leading-7">
 Whenever you order Chrysanthemum flower seeds online, they are packed in polythene, and the packaging is done very carefully so that the seeds do not get damaged.</p>
@@ -147,9 +147,6 @@ Whenever you order Chrysanthemum flower seeds online, they are packed in polythe
 
     <p className="text-gray-600 leading-7">
     If anyone wants to buy Chrysanthemum flower seeds in grams or kilograms, they can also purchase them.</p>
-
-
-</div>
 </div>
       </main>
     );
