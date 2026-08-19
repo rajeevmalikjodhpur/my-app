@@ -183,11 +183,9 @@ export default function IndoorPlantPage() {
 
                 {/* Full Info */}
                 <Link
-  href={`/indoor-plants/${plant.slug}`}
+  href={plant.slug}
   className="block text-center bg-green-600 text-white py-2 rounded-lg text-sm hover:bg-green-700"
->
-  View More
-</Link>
+>View More</Link>
                 {/* Buttons */}
                 <div className="flex gap-2 mt-4">
 
