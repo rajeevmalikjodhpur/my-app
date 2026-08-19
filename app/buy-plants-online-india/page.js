@@ -62,12 +62,12 @@ export default function PlantsPage() {
               </p>
 
               {/* View More Button */}
-              <a
-  href={`${plant.slug}`}
-  className="inline-block mt-3 px-4 py-2 text-sm bg-gray-700 text-white rounded-lg hover:bg-gray-800"
->
-  🌱 View Details
-</a>
+              <Link
+                href={`${item.slug}`}
+                className="block text-center bg-green-600 text-white py-2 rounded-lg text-sm hover:bg-green-700"
+              >
+                View More
+              </Link>
             </div>
           </div>
         ))}
