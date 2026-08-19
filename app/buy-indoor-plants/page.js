@@ -1,14 +1,108 @@
-import IndoorPlantCard from "../../components/IndoorPlantCard";
-export async function generateMetadata() {
-  return {
-    title: "Buy Indoor Plants | Groway Horticulture",
-    description:
-      "Buy flower seeds in Indore like Rose, Marigold, Petunia. Call or WhatsApp to order.",
-    alternates: {
-      canonical: "https://growayhorticulture.com/indoor-plants",
-    },
-  };
-}
+export const metadata = {
+  title: "buy indoor plants online india very cheap price",
+  description: "Groway Horticulture offers all types of indoor plants at very affordable prices, along with excellent quality."
+};
+const plants = [
+  {
+    id: 1,
+    name: "Areca Palm",
+    image: "/Areca Palm.jpg",
+    oldPrice: 200,
+    price: 150,
+    desc: "Low maintenance air purifying plant",
+    info: "Height: 3–5 ft | Indoor light | Water twice a week | Air purifier",
+  },
+  {
+    id: 2,
+    name: "Dracena Drop",
+    image: "/coleus.jpg",
+    oldPrice: 60,
+    price: 45,
+    desc: "Easy to grow indoor plant for home and office",
+    info: "Low light plant | Fast growing | Best for beginners",
+  },
+  {
+    id: 3,
+    name: "Dieffenbachia",
+    image: "/dieffenbachia.jpg",
+    oldPrice: 150,
+    price: 100,
+    desc: "Easy to grow indoor plant for home and office",
+    info: "Low light plant | Fast growing | Best for beginners",
+  },
+  {
+    id: 4,
+    name: "Murraya Dwarf Madhu Kamini",
+    image: "/morraya dwarf madhu kaini folowring.jpg",
+    oldPrice: 60,
+    price: 50,
+    desc: "Easy to grow indoor plant for home and office",
+    info: "Low light plant | Fast growing | Best for beginners",
+  },
+  {
+    id: 5,
+    name: "Royal Bottle Palm",
+    image: "/Royal bottle palm.jpg",
+    oldPrice: 250,
+    price: 150,
+    desc: "Easy to grow indoor plant for home and office",
+    info: "Low light plant | Fast growing | Best for beginners",
+  },
+  {
+    id: 6,
+    name: "Red Macheera China Doll",
+    image: "/red machera china doll.jpg",
+    oldPrice: 99,
+    price: 89,
+    desc: "Easy to grow indoor plant for home and office",
+    info: "Low light plant | Fast growing | Best for beginners",
+  },
+  {
+    id: 7,
+    name: "Dracaena Kolkata",
+    image: "/dracaens kolkata.jpg",
+    oldPrice: 80,
+    price: 50,
+    desc: "Easy to grow indoor plant for home and office",
+    info: "Low light plant | Fast growing | Best for beginners",
+  },
+  {
+    id: 8,
+    name: "Copper Plant",
+    image: "/coper plant.jpg",
+    oldPrice: 99,
+    price: 85,
+    desc: "Easy to grow indoor plant for home and office",
+    info: "Low light plant | Fast growing | Best for beginners",
+  },
+  {
+    id: 9,
+    name: "Dracaena Mahatma",
+    image: "/dracaena mahatma.jpg",
+    oldPrice: 50,
+    price: 40,
+    desc: "Easy to grow indoor plant for home and office",
+    info: "Low light plant | Fast growing | Best for beginners",
+  },
+  {
+    id: 10,
+    name: "Schefflera (Saplera)",
+    image: "/saplera.jpg",
+    oldPrice: 99,
+    price: 80,
+    desc: "Easy to grow indoor plant for home and office",
+    info: "Low light plant | Fast growing | Best for beginners",
+  },
+  {
+    id: 11,
+    name: "Syngonium",
+    image: "/syngonium.jpg",
+    oldPrice: 99,
+    price: 50,
+    desc: "Easy to grow indoor plant for home and office",
+    info: "Low light plant | Fast growing | Best for beginners",
+  },
+];
 
 export default function IndoorPlantPage() {
 
@@ -18,7 +112,7 @@ export default function IndoorPlantPage() {
       {/* SEO Text */}
       <section className="mt-14 text-sm text-gray-700 leading-6">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-green-700">
-  Buy Indoor Plants from Groway Horticulture
+        buy indoor plants online india
 </h1>
 
         <p>
@@ -27,7 +121,91 @@ export default function IndoorPlantPage() {
   
       </section>
       <section className="mt-14 text-sm text-gray-700 leading-6">
-      <IndoorPlantCard/>
+      <div className="max-w-7xl mx-auto px-4">
+
+        {/* Heading */}
+        <div className="text-center mb-10">
+          <h1 className="text-3xl md:text-4xl font-bold text-green-700">
+            Indoor Plants
+          </h1>
+
+          <p className="text-gray-600 mt-2">
+            Buy beautiful indoor plants for your home and office
+          </p>
+        </div>
+
+        {/* Plants */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+          {plants.map((plant) => (
+            <div
+              key={plant.id}
+              className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition"
+            >
+
+              {/* Image */}
+              <img
+                src={plant.image}
+                alt={plant.name}
+                className="w-full h-80 object-cover"
+              />
+
+              {/* Content */}
+              <div className="p-4">
+
+                <h2 className="text-xl font-semibold text-gray-800">
+                  {plant.name}
+                </h2>
+
+                {/* Price */}
+                <div className="flex gap-2 mt-1">
+                  <span className="text-gray-400 line-through">
+                    ₹{plant.oldPrice}
+                  </span>
+
+                  <span className="text-green-600 font-bold">
+                    ₹{plant.price}
+                  </span>
+                </div>
+
+                {/* Description */}
+                <p className="text-sm text-gray-600 mt-2">
+                  {plant.desc}
+                </p>
+
+                {/* Full Info */}
+                <p className="text-sm text-gray-700 mt-3">
+                  {plant.info}
+                </p>
+
+                {/* Buttons */}
+                <div className="flex gap-2 mt-4">
+
+                  <a
+                    href="tel:9520712211"
+                    className="flex-1 text-center px-3 py-2 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+                  >
+                    📞 Call
+                  </a>
+
+                  <a
+                    href={`https://wa.me/919520712211?text=Hello, I want to buy ${plant.name}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 text-center px-3 py-2 text-sm bg-green-500 text-white rounded-lg hover:bg-green-600"
+                  >
+                    💬 WhatsApp
+                  </a>
+
+                </div>
+
+              </div>
+            </div>
+          ))}
+
+        </div>
+
+      </div>
       </section>
       <section class="max-w-6xl mx-auto px-4 py-8">
   <h2 class="text-2xl md:text-3xl font-bold text-green-700 mb-6">
