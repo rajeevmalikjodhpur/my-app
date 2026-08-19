@@ -11,7 +11,6 @@ const plants = [
     price: 150,
     desc: "Low maintenance air purifying plant",
     slug: "/buy-indoor-plants",
-
   },
   {
     id: 2,
@@ -21,7 +20,6 @@ const plants = [
     price: 45,
     desc: "Easy to grow indoor plant for home and office",
     slug: "/buy-indoor-plants",
-
   },
   {
     id: 3,
@@ -31,7 +29,6 @@ const plants = [
     price: 100,
     desc: "Easy to grow indoor plant for home and office",
     slug: "/buy-indoor-plants",
-
   },
   {
     id: 4,
@@ -41,7 +38,6 @@ const plants = [
     price: 50,
     desc: "Easy to grow indoor plant for home and office",
     slug: "/buy-indoor-plants",
-
   },
   {
     id: 5,
@@ -51,7 +47,6 @@ const plants = [
     price: 150,
     desc: "Easy to grow indoor plant for home and office",
     slug: "/buy-indoor-plants",
-
   },
   {
     id: 6,
@@ -61,7 +56,6 @@ const plants = [
     price: 89,
     desc: "Easy to grow indoor plant for home and office",
     slug: "/buy-indoor-plants",
-
   },
   {
     id: 7,
@@ -71,7 +65,6 @@ const plants = [
     price: 50,
     desc: "Easy to grow indoor plant for home and office",
     slug: "/buy-indoor-plants",
-
   },
   {
     id: 8,
@@ -81,7 +74,6 @@ const plants = [
     price: 85,
     desc: "Easy to grow indoor plant for home and office",
     slug: "/buy-indoor-plants",
-
   },
   {
     id: 9,
@@ -113,20 +105,16 @@ const plants = [
 ];
 
 export default function IndoorPlantPage() {
-
   return (
     <main className="max-w-7xl mx-auto px-4 py-10">
-
       {/* SEO Text */}
       <section className="mt-14 text-sm text-gray-700 leading-6">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-green-700">
           buy indoor plants online india
         </h1>
-
         <p>
           At Groway Horticulture, you will find all types of indoor plants that you can place anywhere in your home. We offer a wide variety of plants that can grow well even in low-light conditions. At Groway Horticulture, indoor plants are available in all sizes, according to your space and needs. You can purchase indoor plants from us both online and offline.
         </p>
-
       </section>
       <section className="mt-14 text-sm text-gray-700 leading-6">
         <div className="max-w-7xl mx-auto px-4">
@@ -185,12 +173,12 @@ export default function IndoorPlantPage() {
       </p>
 
       {/* View More */}
-      <Link
+      <a
         href={plant.slug}
         className="block text-center bg-green-600 text-white py-2 rounded-lg text-sm hover:bg-green-700 mt-3"
       >
         View More
-      </Link>
+      </a>
 
       {/* Buttons */}
       <div className="flex gap-2 mt-4">
