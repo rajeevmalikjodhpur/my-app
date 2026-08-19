@@ -174,13 +174,12 @@ export default function IndoorPlantPage() {
                 </p>
 
                 {/* Full Info */}
-                <a 
-  href={`/${plant.info}`}
-  className="inline-block mt-3 px-4 py-2 text-sm bg-gray-700 text-white rounded-lg hover:bg-gray-800"
->
-  More Details 
-</a>
-
+                <Link
+                href={`${plant.info}`}
+                className="block text-center bg-green-600 text-white py-2 rounded-lg text-sm hover:bg-green-700"
+              >
+                More Details
+              </Link>
                 {/* Buttons */}
                 <div className="flex gap-2 mt-4">
 
