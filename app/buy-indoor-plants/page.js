@@ -10,7 +10,8 @@ const plants = [
     oldPrice: 200,
     price: 150,
     desc: "Low maintenance air purifying plant",
-    info: "/outdoor-plants",
+    slug: "/buy-indoor-plants",
+
   },
   {
     id: 2,
@@ -19,7 +20,8 @@ const plants = [
     oldPrice: 60,
     price: 45,
     desc: "Easy to grow indoor plant for home and office",
-    info: "/",
+    slug: "/buy-indoor-plants",
+
   },
   {
     id: 3,
@@ -28,7 +30,8 @@ const plants = [
     oldPrice: 150,
     price: 100,
     desc: "Easy to grow indoor plant for home and office",
-    info: "/",
+    slug: "/buy-indoor-plants",
+
   },
   {
     id: 4,
@@ -37,7 +40,8 @@ const plants = [
     oldPrice: 60,
     price: 50,
     desc: "Easy to grow indoor plant for home and office",
-    info: "Low light plant | Fast growing | Best for beginners",
+    slug: "/buy-indoor-plants",
+
   },
   {
     id: 5,
@@ -46,7 +50,8 @@ const plants = [
     oldPrice: 250,
     price: 150,
     desc: "Easy to grow indoor plant for home and office",
-    info: "Low light plant | Fast growing | Best for beginners",
+    slug: "/buy-indoor-plants",
+
   },
   {
     id: 6,
@@ -55,7 +60,8 @@ const plants = [
     oldPrice: 99,
     price: 89,
     desc: "Easy to grow indoor plant for home and office",
-    info: "Low light plant | Fast growing | Best for beginners",
+    slug: "/buy-indoor-plants",
+
   },
   {
     id: 7,
@@ -64,7 +70,8 @@ const plants = [
     oldPrice: 80,
     price: 50,
     desc: "Easy to grow indoor plant for home and office",
-    info: "Low light plant | Fast growing | Best for beginners",
+    slug: "/buy-indoor-plants",
+
   },
   {
     id: 8,
@@ -73,7 +80,8 @@ const plants = [
     oldPrice: 99,
     price: 85,
     desc: "Easy to grow indoor plant for home and office",
-    info: "Low light plant | Fast growing | Best for beginners",
+    slug: "/buy-indoor-plants",
+
   },
   {
     id: 9,
@@ -82,7 +90,7 @@ const plants = [
     oldPrice: 50,
     price: 40,
     desc: "Easy to grow indoor plant for home and office",
-    info: "Low light plant | Fast growing | Best for beginners",
+    slug: "/buy-indoor-plants",
   },
   {
     id: 10,
@@ -91,7 +99,7 @@ const plants = [
     oldPrice: 99,
     price: 80,
     desc: "Easy to grow indoor plant for home and office",
-    info: "Low light plant | Fast growing | Best for beginners",
+    slug: "/buy-indoor-plants",
   },
   {
     id: 11,
@@ -100,7 +108,7 @@ const plants = [
     oldPrice: 99,
     price: 50,
     desc: "Easy to grow indoor plant for home and office",
-    info: "Low light plant | Fast growing | Best for beginners",
+    slug: "/buy-indoor-plants",
   },
 ];
 
@@ -175,10 +183,10 @@ export default function IndoorPlantPage() {
 
                 {/* Full Info */}
                 <Link
-                href={`${plant.info}`}
+                href={`${plant.slug}`}
                 className="block text-center bg-green-600 text-white py-2 rounded-lg text-sm hover:bg-green-700"
               >
-                More Details
+                View More
               </Link>
                 {/* Buttons */}
                 <div className="flex gap-2 mt-4">
