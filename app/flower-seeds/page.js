@@ -28,8 +28,8 @@ export const metadata = {
   
               <div className="grid grid-cols-3 gap-2 mt-4 text-sm">
                 <a href={`${s.slug}`} className="border border-green-600 text-green-600 py-2 rounded text-center">Info</a>
-                <a href="tel:911234567890" className="bg-green-600 text-white py-2 rounded text-center">Call</a>
-                <a href={`https://wa.me/911234567890?text=I want to buy ${s.name}`} target="_blank" className="bg-green-500 text-white py-2 rounded text-center">WhatsApp</a>
+                <a href="tel:9876543210" className="bg-green-600 text-white py-2 rounded text-center">Call</a>
+                <a href={`https://wa.me/919876543210?text=I want to buy ${s.name}`} target="_blank" className="bg-green-500 text-white py-2 rounded text-center">WhatsApp</a>
               </div>
             </div>
           ))}

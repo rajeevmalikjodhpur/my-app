@@ -5,7 +5,7 @@ const categories = [
     name: "Plants",
     image: "/a.jpg",
     description: "All types of Indoor, Outdoor, and Flowering Plants available — buy from home at affordable prices.",
-    link: "/plants",
+    link: "/buy-plants-online-india",
   },
   {
     name: "Seeds",

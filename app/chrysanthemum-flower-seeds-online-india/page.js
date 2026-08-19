@@ -37,7 +37,7 @@ export const metadata = {
     <div className="grid grid-cols-2 gap-3">
 
       <a
-        href="https://wa.me/911234567890?text=I want to buy chrysanthemum flower seeds"
+        href="https://wa.me/919876543210?text=I want to buy chrysanthemum flower seeds"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-green-500 hover:bg-green-600 text-white
@@ -47,7 +47,7 @@ export const metadata = {
       </a>
 
       <a
-        href="tel:911234567890"
+        href="tel:9876543210"
         className="bg-blue-600 hover:bg-blue-700 text-white
                    text-center py-3 rounded-lg font-semibold"
       >
