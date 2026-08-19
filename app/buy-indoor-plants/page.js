@@ -10,7 +10,7 @@ const plants = [
     oldPrice: 200,
     price: 150,
     desc: "Low maintenance air purifying plant",
-    info: "Height: 3–5 ft | Indoor light | Water twice a week | Air purifier",
+    info: "/outdoor-plants",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const plants = [
     oldPrice: 60,
     price: 45,
     desc: "Easy to grow indoor plant for home and office",
-    info: "Low light plant | Fast growing | Best for beginners",
+    info: "/",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const plants = [
     oldPrice: 150,
     price: 100,
     desc: "Easy to grow indoor plant for home and office",
-    info: "Low light plant | Fast growing | Best for beginners",
+    info: "/",
   },
   {
     id: 4,
@@ -174,9 +174,12 @@ export default function IndoorPlantPage() {
                 </p>
 
                 {/* Full Info */}
-                <p className="text-sm text-gray-700 mt-3">
-                  {plant.info}
-                </p>
+                <a 
+  href={`/${plant.info}`}
+  className="inline-block mt-3 px-4 py-2 text-sm bg-gray-700 text-white rounded-lg hover:bg-gray-800"
+>
+  More Details 
+</a>
 
                 {/* Buttons */}
                 <div className="flex gap-2 mt-4">
