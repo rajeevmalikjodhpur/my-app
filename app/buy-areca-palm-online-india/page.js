@@ -92,7 +92,6 @@ export const metadata = {
     </div>
 
     <div className="flex items-center gap-3 p-4 bg-gray-50 rounded-lg border">
-      <span className="text-blue-600 text-xl">🪴</span>
       <div>
         <p className="text-sm text-gray-500">Suitable For</p>
         <p className="font-semibold text-gray-800">
