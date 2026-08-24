@@ -14,7 +14,7 @@ export const metadata = {
   {/* Product Image */}
   <div className="bg-white rounded-xl shadow-md p-4">
   <img
-  src="/Areca palm.jpg"
+  src="/Areca Palm.jpg"
   alt="buy areca palm plant online"
   className="w-full object-contain rounded-lg"
 />
@@ -23,7 +23,7 @@ export const metadata = {
   {/* Product Details */}
   <div className="bg-white rounded-xl shadow-md p-6">
     <h2 className="text-2xl font-bold text-gray-800 mb-3">Areca Palm plants</h2>
-<div className="text-sm text-green-600 font-semibold mb-4">✓ 99.9% warranty </div>
+<div className="text-sm text-green-600 font-semibold mb-4">✓ 99.9%  Germination Guarantee</div>
     <p className="text-gray-600 mb-5">Hight qulity and orignal plant</p>
 {/* Price */}
     <div className="mb-5">
