@@ -21,7 +21,7 @@ const plants = [
     oldPrice: 60,
     price: 45,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "#",
+    slug: "/buy-indoor-plants",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const plants = [
     oldPrice: 150,
     price: 100,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "#",
+    slug: "/buy-indoor-plants",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const plants = [
     oldPrice: 60,
     price: 50,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "#",
+    slug: "/buy-indoor-plants",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const plants = [
     oldPrice: 250,
     price: 150,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "#",
+    slug: "/buy-indoor-plants",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const plants = [
     oldPrice: 99,
     price: 89,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "#",
+    slug: "/buy-indoor-plants",
   },
   {
     id: 7,
@@ -66,7 +66,7 @@ const plants = [
     oldPrice: 80,
     price: 50,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "#",
+    slug: "/buy-indoor-plants",
   },
   {
     id: 8,
@@ -75,7 +75,7 @@ const plants = [
     oldPrice: 99,
     price: 85,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "#",
+    slug: "/buy-indoor-plants",
   },
   {
     id: 9,
@@ -84,7 +84,7 @@ const plants = [
     oldPrice: 50,
     price: 40,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "#",
+    slug: "/buy-indoor-plants",
   },
   {
     id: 10,
@@ -93,7 +93,7 @@ const plants = [
     oldPrice: 99,
     price: 80,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "#",
+    slug: "/buy-indoor-plants",
   },
   {
     id: 11,
@@ -102,7 +102,7 @@ const plants = [
     oldPrice: 99,
     price: 50,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "#",
+    slug: "/buy-indoor-plants",
   },
 ];
 
