@@ -12,7 +12,7 @@ const plants = [
     oldPrice: 200,
     price: 150,
     desc: "Low maintenance air purifying plant",
-    slug: "/buy-areca-palmonline-india",
+    slug: "/buy-indoor-plants",
   },
   {
     id: 2,
