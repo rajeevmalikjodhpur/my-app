@@ -12,7 +12,7 @@ const plants = [
     oldPrice: 200,
     price: 150,
     desc: "Low maintenance air purifying plant",
-    slug: "/buy-indoor-plants",
+    slug: "/buy-areca-palmonline-india",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const plants = [
     oldPrice: 60,
     price: 45,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "/buy-indoor-plants",
+    slug: "#",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const plants = [
     oldPrice: 150,
     price: 100,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "/buy-indoor-plants",
+    slug: "#",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const plants = [
     oldPrice: 60,
     price: 50,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "/buy-indoor-plants",
+    slug: "#",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const plants = [
     oldPrice: 250,
     price: 150,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "/buy-indoor-plants",
+    slug: "#",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const plants = [
     oldPrice: 99,
     price: 89,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "/buy-indoor-plants",
+    slug: "#",
   },
   {
     id: 7,
@@ -66,7 +66,7 @@ const plants = [
     oldPrice: 80,
     price: 50,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "/buy-indoor-plants",
+    slug: "#",
   },
   {
     id: 8,
@@ -75,7 +75,7 @@ const plants = [
     oldPrice: 99,
     price: 85,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "/buy-indoor-plants",
+    slug: "#",
   },
   {
     id: 9,
@@ -84,7 +84,7 @@ const plants = [
     oldPrice: 50,
     price: 40,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "/buy-indoor-plants",
+    slug: "#",
   },
   {
     id: 10,
@@ -93,7 +93,7 @@ const plants = [
     oldPrice: 99,
     price: 80,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "/buy-indoor-plants",
+    slug: "#",
   },
   {
     id: 11,
@@ -102,7 +102,7 @@ const plants = [
     oldPrice: 99,
     price: 50,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "/buy-indoor-plants",
+    slug: "#",
   },
 ];
 
@@ -197,7 +197,7 @@ export default function IndoorPlantPage() {
                   href="tel:9520712211"
                   className="flex-1 text-center px-3 py-2 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700"
                 >
-                  📞 Call
+                  Call
                 </a>
 
                 {/* WhatsApp */}
@@ -207,7 +207,7 @@ export default function IndoorPlantPage() {
                   rel="noopener noreferrer"
                   className="flex-1 text-center px-3 py-2 text-sm bg-green-500 text-white rounded-lg hover:bg-green-600"
                 >
-                  💬 WhatsApp
+                  WhatsApp
                 </a>
 
               </div>
@@ -221,7 +221,7 @@ export default function IndoorPlantPage() {
       {/* Our Indoor Plant Categories */}
       <section className="max-w-6xl mx-auto px-4 py-8">
         <h2 className="text-2xl md:text-3xl font-bold text-green-700 mb-6">
-          🌿Our Indoor Plant Categories
+        Our Indoor Plant Categories
         </h2>
 
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -292,7 +292,7 @@ export default function IndoorPlantPage() {
       {/* Indoor Plants by Size */}
       <section className="max-w-6xl mx-auto px-4 py-8">
         <h2 className="text-2xl md:text-3xl font-bold text-green-700 mb-6">
-          🌿Indoor Plants by Size
+          Indoor Plants by Size
         </h2>
 
         <p className="text-sm md:text-base text-gray-600 mt-4 leading-relaxed">
@@ -315,7 +315,7 @@ export default function IndoorPlantPage() {
       {/* Indoor Plants for Every Space */}
       <section className="max-w-6xl mx-auto px-4 py-8">
         <h2 className="text-2xl md:text-3xl font-bold text-green-700 mb-6">
-          🌿Indoor Plants for Every Space
+          Indoor Plants for Every Space
         </h2>
 
         <p className="text-sm md:text-base text-gray-600 mt-4 leading-relaxed">
