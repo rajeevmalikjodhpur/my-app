@@ -29,8 +29,8 @@ const plants = [
     image: "/dieffenbachia.jpg",
     oldPrice: 150,
     price: 100,
-    desc: "Easy to grow indoor plant for home and office",
-    slug: "/buy-indoor-plants",
+    desc: "Easy to grow any climate",
+    slug: "/dieffenbachia-plant-buy-online",
   },
   {
     id: 4,
