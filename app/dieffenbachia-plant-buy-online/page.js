@@ -11,11 +11,11 @@ export const metadata = {
         <div className="grid md:grid-cols-2 gap-8 items-start">
 
   {/* Product Image */}
-  <div className="bg-white h-200 rounded-xl shadow-md p-4">
+  <div className="bg-white rounded-xl shadow-md p-4">
   <img
   src="/dieffenbachia.jpg"
   alt="buy dieffenbachia online"
-  className="w-full  object-contain rounded-lg"
+  className="w-full h-100 object-contain rounded-lg"
 />
   </div>
 
