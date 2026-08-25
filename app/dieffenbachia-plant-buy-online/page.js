@@ -15,7 +15,7 @@ export const metadata = {
   <img
   src="/dieffenbachia.jpg"
   alt="buy dieffenbachia online"
-  className="w-full h-600 object-contain rounded-lg"
+  className="w-full h-65 object-contain rounded-lg"
 />
   </div>
 
