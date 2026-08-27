@@ -22,7 +22,7 @@ At Groway Horticulture, you get very high-quality plants, seeds, and pots. The p
             <li><a href="/" className="hover:text-yellow-400">Home</a></li>
             <li><a href="plants" className="hover:text-yellow-400">Plants</a></li>
             <li><a href="seeds" className="hover:text-yellow-400">Seeds</a></li>
-            <li><a href="#" className="hover:text-yellow-400">Blog</a></li>
+            <li><a href="blog" className="hover:text-yellow-400">Blog</a></li>
             <li><a href="contact-us" className="hover:text-yellow-400">Contact</a></li>
           </ul>
         </div>
