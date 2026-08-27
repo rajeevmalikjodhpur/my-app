@@ -5,41 +5,18 @@ export const metadata = {
 
   const posts = [
     {
-      title: "Dieffenbachia Plant की पूरी जानकारी",
+      title: "best fertilizer for areca palm indoor plant",
       description:
-        "Dieffenbachia एक सुंदर indoor plant है। जानिए इसे घर, office और balcony में कैसे लगाएं और इसकी सही देखभाल कैसे करें।",
-      slug: "dieffenbachia-plant"
+        "We will tell you which fertilizer is best for growing Areca Palm.।",
+      slug: "#"
     },
     {
-      title: "Chrysanthemum Flower Seeds कैसे उगाएं",
-      description:
-        "Chrysanthemum flower seeds से पौधा तैयार करने की पूरी जानकारी। जानिए मिट्टी, पानी, sunlight और planting का सही तरीका।",
-      slug: "chrysanthemum-flower-seeds"
-    },
-    {
-      title: "Indoor Plants के लिए सही Care Tips",
-      description:
-        "Indoor plants को healthy रखने के लिए sunlight, watering, soil और fertilizer से जुड़ी जरूरी जानकारी यहां पढ़ें।",
-      slug: "indoor-plants-care-tips"
-    },
-    {
-      title: "Garden के लिए Best Flower Plants",
-      description:
-        "अपने garden को खूबसूरत बनाने के लिए अलग-अलग प्रकार के flower plants के बारे में जानें और सही plant चुनें।",
-      slug: "best-flower-plants-for-garden"
-    },
-    {
-      title: "Plants के लिए सही मिट्टी कैसे चुनें",
-      description:
-        "अलग-अलग plants के लिए किस प्रकार की soil बेहतर होती है और अच्छी growth के लिए soil तैयार करने का सही तरीका क्या है।",
-      slug: "best-soil-for-plants"
-    },
-    {
-      title: "Plants को कितनी Sunlight चाहिए?",
-      description:
-        "Indoor और outdoor plants के लिए sunlight कितनी जरूरी है? अलग-अलग plants की sunlight requirements के बारे में जानें।",
-      slug: "plants-sunlight-requirement"
-    }
+        title: "areca palm pot size in inches",
+        description:
+          "We will tell you what size pot Areca Palm should be planted in and provide complete details.",
+        slug: "#"
+      }
+  
   ];
   
   
@@ -55,8 +32,7 @@ export const metadata = {
   </h1>
 
   <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
-    Plants, seeds, gardening और plant care से जुड़ी उपयोगी जानकारी
-    Groway Horticulture Blog पर पढ़ें।
+  Read useful information about plants, seeds, gardening, and horticulture on the Groway Horticulture Blog.
   </p>
 </div>
 
