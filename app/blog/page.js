@@ -7,8 +7,8 @@ export const metadata = {
     {
       title: "best fertilizer for areca palm indoor plant",
       description:
-        "We will tell you which fertilizer is best for growing Areca Palm.।",
-      slug: "#"
+        "We will tell you about the best fertilizers that you can use for your areca palm.",
+      slug: "/best-fertilizer-for-areca-palm-indoor-plant"
     },
     {
         title: "areca palm pot size in inches",
