@@ -13,12 +13,17 @@ export const metadata = {
     {
         title: "areca palm pot size in inches",
         description:
-          "We will tell you what size pot Areca Palm should be planted in and provide complete details.",
+          "Today, we will tell you how many inches of pot you should use for planting an areca palm plant.",
+        slug: "/areca-palm-pot-size-in-inches"
+      },
+      {
+        title: "how do cow dung and vegetable waste change into manure",
+        description:
+          "Today, we will tell you how cow dung and vegetable waste are converted into manure, and then you will also be able to make manure from cow dung and vegetable waste.",
         slug: "#"
       }
-  
+
   ];
-  
   
   export default function BlogALLpost() {
     return (
