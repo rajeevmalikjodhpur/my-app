@@ -38,8 +38,8 @@ const plants = [
     image: "/morraya dwarf madhu kaini folowring.jpg",
     oldPrice: 60,
     price: 50,
-    desc: "Easy to grow indoor plant for home and office",
-    slug: "/buy-indoor-plants",
+    desc: "Easy to madhu kamini plant for home and office",
+    slug: "/buy-madhu-kamini-plant-online",
   },
   {
     id: 5,
