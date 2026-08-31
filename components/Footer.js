@@ -32,9 +32,11 @@ At Groway Horticulture, you get very high-quality plants, seeds, and pots. The p
           <h3 className="text-xl font-semibold mb-4">Company</h3>
           <ul>
             <li><a href="aboutus" className="hover:text-yellow-400">About Us</a></li>
-            <li><a href="privacy-policy" className="hover:text-yellow-400">Privacy Policy</a></li>
+            <li><a href="/privacy-policy" className="hover:text-yellow-400">Privacy Policy</a></li>
             <li><a href="/disclaimer" className="hover:text-yellow-400">Disclaimer</a></li>
             <li><a href="terms-and-conditions" className="hover:text-yellow-400">Terms & Conditions</a></li>
+            <li><a href="refund-policy" className="hover:text-yellow-400">Refund Policy</a></li>
+
           </ul>
         </div>
 
