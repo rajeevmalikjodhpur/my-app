@@ -20,9 +20,14 @@ export const metadata = {
         title: "how do cow dung and vegetable waste change into manure",
         description:
           "Today, we will tell you how cow dung and vegetable waste are converted into manure, and then you will also be able to make manure from cow dung and vegetable waste.",
+        slug: "/how-do-cow-dung-and-vegetable-waste-change-into-manure"
+      },
+      {
+        title: "how to grow karisalankanni at home",
+        description:
+          "how to grow karisalankanni at home.",
         slug: "#"
       }
-
   ];
   
   export default function BlogALLpost() {
