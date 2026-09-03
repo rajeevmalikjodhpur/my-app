@@ -26,7 +26,7 @@ export const metadata = {
         title: "how to grow karisalankanni at home",
         description:
           "how to grow karisalankanni at home.",
-        slug: "#"
+        slug: "/how-to-grow-karisalankanni-at-home"
       }
   ];
   

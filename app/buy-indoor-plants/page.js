@@ -54,10 +54,10 @@ const plants = [
     id: 6,
     name: "Red Macheera China Doll",
     image: "/red machera china doll.jpg",
-    oldPrice: 99,
+    oldPrice: 199,
     price: 89,
     desc: "Easy to grow indoor plant for home and office",
-    slug: "/buy-indoor-plants",
+    slug: "/buy-china-doll-plant-online",
   },
   {
     id: 7,
