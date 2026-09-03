@@ -25,8 +25,14 @@ export const metadata = {
       {
         title: "how to grow karisalankanni at home",
         description:
-          "how to grow karisalankanni at home.",
+          "How to Grow Karisalankanni at Home and How to Care for and Grow the Plant – Complete Step-by-Step Guide.",
         slug: "/how-to-grow-karisalankanni-at-home"
+      },
+      {
+        title: "can you grow dieffenbachia in water without soil",
+        description:
+          "can you grow dieffenbachia in water without soil",
+        slug: "#"
       }
   ];
   

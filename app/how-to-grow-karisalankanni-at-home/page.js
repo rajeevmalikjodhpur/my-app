@@ -37,6 +37,17 @@ Step by Step </h2>
 <h3 class="font-bold text-gray-900">conclusion</h3>
 <p>Now you must have understood how to grow the Karisalankanni plant and how to help this plant grow properly. If you follow all the steps mentioned by us, your Karisalankanni plant will definitely grow well.</p>
 </div>
+<section class="my-6">
+    <h2 class="text-xl font-bold mb-3">Related Links</h2>
+    <ul class="list-disc pl-6">
+        <li><a href="/best-fertilizer-for-areca-palm-indoor-plant" class="text-blue-600 hover:underline">
+            Best fertilizer for areca palm indoor plant</a>
+        </li>
+        <li><a href="/areca-palm-pot-size-in-inches" class="text-blue-600 hover:underline">
+            areca palm pot size in inches</a>
+        </li>
+    </ul>
+</section>
 </article>
       </main>
     );
