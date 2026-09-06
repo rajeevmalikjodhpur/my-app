@@ -92,8 +92,8 @@ const plants = [
     image: "/saplera.jpg",
     oldPrice: 99,
     price: 80,
-    desc: "Easy to grow indoor plant for home and office",
-    slug: "/buy-indoor-plants",
+    desc: "Buy schefflera plant online big and small all type avilable",
+    slug: "/buy-schefflera-plant-online",
   },
   {
     id: 11,
@@ -101,8 +101,8 @@ const plants = [
     image: "/syngonium.jpg",
     oldPrice: 99,
     price: 50,
-    desc: "Easy to grow indoor plant for home and office",
-    slug: "/buy-indoor-plants",
+    desc: "buy syngonium plant online very low price and high qulity plant",
+    slug: "/buy-syngonium-plant-online",
   },
 ];
 
