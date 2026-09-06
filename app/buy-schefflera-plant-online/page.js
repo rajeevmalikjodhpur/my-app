@@ -7,7 +7,7 @@ export const metadata = {
     return (
       <main className="max-w-7xl mx-auto px-4 py-10">
         <h1 className="text-3xl md:text-4xl font-bold text-center mb-6">Buy schefflera plant online</h1>
-        <p className="text-center text-gray-600 mb-10">Groway Horticulture मे schefflera plant उपल्बद है इसे आप online buy कर सकते है schefflera plant के छोटे व बडे दोनो प्रकार के plant उपल्बद है आप अपनी आवश्यता के अनुासर buy कर सकते है .</p>
+        <p className="text-center text-gray-600 mb-10">Schefflera plants are available at Groway Horticulture, and you can buy them online. Both small and large Schefflera plants are available, so you can choose and purchase the plant according to your needs.</p>
         <div className="grid md:grid-cols-2 gap-8 items-start">
 
   {/* Product Image */}
