@@ -26,6 +26,12 @@ export const metadata = {
                     <p>Now you must have got the answer to your question: Can we grow the Dieffenbachia plant in water, and how can we grow it? We have explained all of this in this post.</p>
 </div>
 </article>
+<h2 class="text-xl font-semibold mb-3">Related Links</h2>
+
+<ul class="list-disc pl-5">
+    <li><a href="/dieffenbachia-plant-buy-online" class="text-blue-600 hover:underline">Buy Dieffenbachia Plant</a></li>
+    <li><a href="https://www.growayhorticulture.com/buy-areca-palm-online-india" class="text-blue-600 hover:underline">Buy areca palm plant</a></li>
+</ul>
       </main>
     );
   }

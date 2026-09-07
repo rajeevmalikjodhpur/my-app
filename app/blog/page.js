@@ -31,7 +31,7 @@ export const metadata = {
       {
         title: "can you grow dieffenbachia in water without soil",
         description:
-          "can you grow dieffenbachia in water without soil",
+          "Can the Dieffenbachia plant grow in water, and if it can grow, then how does it grow",
         slug: "can-you-grow-dieffenbachia-in-water-without-soil"
       }
   ];
