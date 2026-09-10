@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Groway Horticulture Blog",
-    description: "Groway horticulture blog आप को horticulture से related सभी जानकारी provide करायी जाऐगी ."
+    description: "Groway Horticulture Blog will provide you with all the information related to horticulture."
   };
 
   const posts = [

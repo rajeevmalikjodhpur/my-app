@@ -3,7 +3,7 @@ export const metadata = {
     description: "We will tell you how to get seeds from chrysanthemum flowers."
   };
   
-  export default function CowDungVegetable() {
+  export default function ChrysanthemumSeedsFlowers() {
     return (
       <main className="max-w-7xl mx-auto px-4 py-10">
          <article class="bg-white">
