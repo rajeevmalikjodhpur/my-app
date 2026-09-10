@@ -33,6 +33,12 @@ export const metadata = {
         description:
           "Can the Dieffenbachia plant grow in water, and if it can grow, then how does it grow",
         slug: "can-you-grow-dieffenbachia-in-water-without-soil"
+      },
+      {
+        title: "how to get chrysanthemum seeds from flowers",
+        description:
+          "We will tell you how to get seeds from chrysanthemum flowers.",
+        slug: "how-to-get-chrysanthemum-seeds-from-flowers"
       }
   ];
   
