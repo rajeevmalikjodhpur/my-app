@@ -39,6 +39,12 @@ export const metadata = {
         description:
           "We will tell you how to get seeds from chrysanthemum flowers.",
         slug: "how-to-get-chrysanthemum-seeds-from-flowers"
+      },
+      {
+        title: "how long does it take to grow chrysanthemums from seeds",
+        description:
+          "We will tell you how much time it takes for a chrysanthemum plant to grow from seeds.",
+        slug: "how-long-does-it-take-to-grow-chrysanthemums-from-seeds"
       }
   ];
   
