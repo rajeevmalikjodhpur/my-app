@@ -63,6 +63,12 @@ export const metadata = {
         description:
           "Today, we will tell you how tall a chrysanthemum plant grows. We will also tell you its height in feet as well as in centimeters.",
         slug: "chrysanthemum-plant-height"
+      },
+      {
+        title: "difference between chrysanthemum and marigold",
+        description:
+          "Groway Horticulture will tell you what the difference is between chrysanthemum and marigold.",
+        slug: "difference-between-chrysanthemum-and-marigold"
       }
   ];
   
