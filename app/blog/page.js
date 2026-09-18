@@ -57,6 +57,12 @@ export const metadata = {
         description:
           "At some point, the chrysanthemum plant dries up, so many people have a question: Will it grow back on its own.",
         slug: "does-chrysanthemum-come-back-every-year"
+      },
+      {
+        title: "chrysanthemum plant height feet and cms",
+        description:
+          "Today, we will tell you how tall a chrysanthemum plant grows. We will also tell you its height in feet as well as in centimeters.",
+        slug: "chrysanthemum-plant-height"
       }
   ];
   

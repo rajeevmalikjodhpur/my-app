@@ -13,7 +13,7 @@ export const metadata = {
 <div class="bg-gray-50 border border-gray-200 rounded-xl p-5 mb-8">
     <h2 class="text-xl font-bold text-gray-900 mb-4">does chrysanthemum come back every year</h2>
 <p>When the flowering season of the chrysanthemum plant ends, the plant starts to dry up, but the stem of the plant remains green. If you remove all the dry branches from the plant and only the stem remains, it can grow back on its own. You just need to take extra care of it, and it will provide you with flowers again in its flowering season.</p>
-<p>अगर आप के पास इस chrysanthemum plant के seeds है या फिर आप buy कर सकते है तो आप को नया plant हि लगाना चाहिए सीजन पर इस से आप को care कम करनी होगी और pot का दुबार mantines कर सकते है</p>
+<p>If you have chrysanthemum plant seeds or can buy them, then you should plant a new plant in the season. This will require less care, and you can maintain the pot again.</p>
     
 <h3 class="font-bold text-gray-900">conclusion</h3>
 <p>Now you must have understood whether this plant grows back on its own every year or whether we need to plant it again.</p>
@@ -33,4 +33,3 @@ export const metadata = {
       </main>
     );
   }
-  
