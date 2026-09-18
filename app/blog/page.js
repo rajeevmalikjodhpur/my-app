@@ -45,6 +45,18 @@ export const metadata = {
         description:
           "We will tell you how much time it takes for a chrysanthemum plant to grow from seeds.",
         slug: "how-long-does-it-take-to-grow-chrysanthemums-from-seeds"
+      },
+      {
+        title: "how to take care of chrysanthemum plant indoors",
+        description:
+          "Groway Horticulture will give you some tips through which you can keep your chrysanthemum indoor plants green and healthy.",
+        slug: "how-to-take-care-of-chrysanthemum-plant-indoors"
+      },
+      {
+        title: "does chrysanthemum come back every year",
+        description:
+          "At some point, the chrysanthemum plant dries up, so many people have a question: Will it grow back on its own.",
+        slug: "does-chrysanthemum-come-back-every-year"
       }
   ];
   

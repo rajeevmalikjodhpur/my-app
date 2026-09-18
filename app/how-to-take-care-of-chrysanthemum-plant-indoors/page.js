@@ -1,5 +1,5 @@
 export const metadata = {
-    title: "how to take care of chrysanthemum plant indors",
+    title: "how to take care of chrysanthemum plant indoors",
     description: "Groway Horticulture will give you some tips through which you can keep your chrysanthemum indoor plants green and healthy."
   };
   
@@ -8,7 +8,7 @@ export const metadata = {
       <main className="max-w-7xl mx-auto px-4 py-10">
          <article class="bg-white">
     <h1 class="text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
-    how to take care of chrysanthemum plant indors</h1>
+    how to take care of chrysanthemum plant indoors</h1>
     <p class="text-gray-600 text-lg leading-8 mb-4">Many people keep chrysanthemum plants in their rooms or inside their homes, where these plants start drying out. That is why today we will tell you some tips that will help keep your chrysanthemum plant green and healthy, so that you can continue to enjoy its benefits.</p>
 <div class="bg-gray-50 border border-gray-200 rounded-xl p-5 mb-8">
     <h2 class="text-xl font-bold text-gray-900 mb-4">how to take care of chrysanthemum plant indors</h2>
