@@ -5,7 +5,7 @@ export const metadata = {
   
   const seeds = [
     { name: "chrysanthemum flower seeds", price: "₹50", img: "/chrysanthemum flower seeds.jpg", slug: "/chrysanthemum-flower-seeds-online-india" },
-    { name: "Marigold Seeds", price: "₹60", img: "/seeds/marigold.jpg", slug: "marigold-seeds" },
+    { name: "Marigold Seeds", price: "₹50", img: "/marry gold seeds.jpg", slug: "/buy-marigold-flower-seeds-online-india" },
     { name: "Petunia Seeds", price: "₹70", img: "/seeds/petunia.jpg", slug: "petunia-seeds" },
     { name: "Zinnia Seeds", price: "₹65", img: "/seeds/zinnia.jpg", slug: "zinnia-seeds" },
   ];
