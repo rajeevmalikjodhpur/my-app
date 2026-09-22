@@ -69,6 +69,12 @@ export const metadata = {
         description:
           "Groway Horticulture will tell you what the difference is between chrysanthemum and marigold.",
         slug: "difference-between-chrysanthemum-and-marigold"
+      },
+      {
+        title: "marigold farming time",
+        description:
+          "Today, we will tell you about the right time for marigold farming**, so that farmers can get more profit.",
+        slug: "marigold-farming-time"
       }
   ];
   

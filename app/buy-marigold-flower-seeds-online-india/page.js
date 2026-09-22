@@ -42,7 +42,6 @@ export const metadata = {
       >
         WhatsApp Order
       </a>
-
       <a
         href="tel:9876543210"
         className="bg-blue-600 hover:bg-blue-700 text-white
@@ -57,7 +56,7 @@ export const metadata = {
       <p><strong>Product:</strong>Marigold flowers seeds</p>
       <p><strong>Germination:</strong>99.9% Plant Germination Guarantee</p>
       <p><strong>Growth:</strong> Fast Growing</p>
-      <p><strong>Flower Color:</strong> Green</p>
+      <p><strong>Flower Color:</strong> Orange</p>
       <p><strong>Suitable for:</strong> Home Gardening & office , farming Etc</p>
     </div>
     {/* Key Features */}

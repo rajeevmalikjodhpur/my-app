@@ -18,7 +18,7 @@ export const metadata = {
 
     <h3 class="font-bold text-gray-900">Marigold rainy-season crop</h3>
     <p>In the rainy-season crop, farmers can get very high profits. The sowing of this marigold crop is done in June and July, and this crop starts producing flowers in October.</p>
-    <h4>Why does the rainy-season crop give the most profit?</h4>
+    <h4 class="text-xl font-bold text-gray-800">Why does the rainy-season crop give the most profit?</h4>
     <ul>
     <li>When we sow the rainy-season crop, the demand for flowers starts increasing after three months.</li>
     <li>In India, the wedding season starts in November. People buy perfumes for weddings, and many perfumes are made from marigold flowers. Therefore, the price of flowers starts increasing in October.</li>
